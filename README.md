@@ -26,22 +26,15 @@ A sample portfolio viewer built with UIKit, RxSwift and the MVVM pattern. The ap
 
 ## APP Screenshots
 
-# Dark Mode
-
-|             English         |         Arabic          | 
-|---------------------------------|------------------------------|
-|![iOS_dark_en](https://github.com/user-attachments/assets/265a23cc-c063-4a28-97f9-4c30a23dde3e)|![iOS_dark_ar](https://github.com/user-attachments/assets/1b05bea3-e114-4693-9201-b342bb344038)|
-
-# Light Mode
-
-|             English         |         Arabic          | 
-|---------------------------------|------------------------------|
-|![iOS_light_en](https://github.com/user-attachments/assets/b3dfae59-04a6-413f-b533-4f1d66b6fa87)|![iOS_light_ar](https://github.com/user-attachments/assets/6aff4afa-df0d-429c-8090-85e39334a51d)|
+| Light Mode              | Dark Mode               |
+|------------------------|-------------------------|
+| ![Home](screenshots/iOS_light_en.png) | ![Home](screenshots/iOS_dark_en.png) |
+| ![Home](screenshots/iOS_light_ar.png) | ![Home](screenshots/iOS_dark_ar.png) |
 
 
 ## Project Structure
 
-<img width="342" alt="Screenshot 2025-06-27 at 8 50 12 PM" src="https://github.com/user-attachments/assets/e680ac05-c8e4-4dd4-9bc0-fecf1bd75ff4" />
+<img src="screenshots/structure.png" alt="Home" width="342" />
 
 
 
@@ -68,7 +61,7 @@ xcodebuild -workspace baraka-iOS.xcworkspace \
 
 ### Tests
 
-<img width="323" alt="Screenshot 2025-06-27 at 9 05 20 PM" src="https://github.com/user-attachments/assets/338c6542-9cdd-4433-800b-be8dea44d737" />
+<img src="screenshots/tests.png" alt="Home" width="342" />
 
 ## Theme
 Fonts and colors are defined in `Theme.swift` and used throughout the app for a consistent look and feel.
