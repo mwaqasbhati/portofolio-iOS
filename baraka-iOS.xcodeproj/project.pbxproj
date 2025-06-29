@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D170BFC612F40A8445703F6 /* Pods_baraka_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931670199160C86E96452CD7 /* Pods_baraka_iOSTests.framework */; };
+		707B9A2708A03E8FBAA253EF /* Pods_baraka_iOS_baraka_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D789656EBF4872933B9023 /* Pods_baraka_iOS_baraka_iOSUITests.framework */; };
+		D6677241C2AF9BCFDA822AA9 /* Pods_baraka_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527FDC6EB2F735AADAFB0522 /* Pods_baraka_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25D7B2422E0D25E900D6D448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D7B2232E0D25E800D6D448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D7B22A2E0D25E800D6D448;
+			remoteInfo = "baraka-iOS";
+		};
+		25D7B24C2E0D25E900D6D448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D7B2232E0D25E800D6D448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D7B22A2E0D25E800D6D448;
+			remoteInfo = "baraka-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25D7B22B2E0D25E800D6D448 /* baraka-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baraka-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D7B2412E0D25E900D6D448 /* baraka-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baraka-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D7B24B2E0D25E900D6D448 /* baraka-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baraka-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D789656EBF4872933B9023 /* Pods_baraka_iOS_baraka_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baraka_iOS_baraka_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527FDC6EB2F735AADAFB0522 /* Pods_baraka_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baraka_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F22A8932E2C6E04FE84C9B /* Pods-baraka-iOS-baraka-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baraka-iOS-baraka-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-baraka-iOS-baraka-iOSUITests/Pods-baraka-iOS-baraka-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72CBE723278A0391D4B373D5 /* Pods-baraka-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baraka-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-baraka-iOSTests/Pods-baraka-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		931670199160C86E96452CD7 /* Pods_baraka_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baraka_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BDC91735B1975D5D281A42 /* Pods-baraka-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baraka-iOS.debug.xcconfig"; path = "Target Support Files/Pods-baraka-iOS/Pods-baraka-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CCA94EBD3060C95A392AE510 /* Pods-baraka-iOS-baraka-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baraka-iOS-baraka-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-baraka-iOS-baraka-iOSUITests/Pods-baraka-iOS-baraka-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D710B8C57DADF1EB6F4D19BA /* Pods-baraka-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baraka-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-baraka-iOSTests/Pods-baraka-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4693BEDBC6D5A0705066003 /* Pods-baraka-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baraka-iOS.release.xcconfig"; path = "Target Support Files/Pods-baraka-iOS/Pods-baraka-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		25D7B2532E0D25E900D6D448 /* Exceptions for "baraka-iOS" folder in "baraka-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 25D7B22A2E0D25E800D6D448 /* baraka-iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		25D7B22D2E0D25E800D6D448 /* baraka-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				25D7B2532E0D25E900D6D448 /* Exceptions for "baraka-iOS" folder in "baraka-iOS" target */,
+			);
+			path = "baraka-iOS";
+			sourceTree = "<group>";
+		};
+		25D7B2442E0D25E900D6D448 /* baraka-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "baraka-iOSTests";
+			sourceTree = "<group>";
+		};
+		25D7B24E2E0D25E900D6D448 /* baraka-iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "baraka-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D7B2282E0D25E800D6D448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6677241C2AF9BCFDA822AA9 /* Pods_baraka_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D7B23E2E0D25E900D6D448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D170BFC612F40A8445703F6 /* Pods_baraka_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D7B2482E0D25E900D6D448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707B9A2708A03E8FBAA253EF /* Pods_baraka_iOS_baraka_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D7B2222E0D25E800D6D448 = {
+			isa = PBXGroup;
+			children = (
+				25D7B22D2E0D25E800D6D448 /* baraka-iOS */,
+				25D7B2442E0D25E900D6D448 /* baraka-iOSTests */,
+				25D7B24E2E0D25E900D6D448 /* baraka-iOSUITests */,
+				25D7B22C2E0D25E800D6D448 /* Products */,
+				9342BCF214C33DC28BC6324C /* Pods */,
+				B7510F4611DF504B6E03507A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25D7B22C2E0D25E800D6D448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D7B22B2E0D25E800D6D448 /* baraka-iOS.app */,
+				25D7B2412E0D25E900D6D448 /* baraka-iOSTests.xctest */,
+				25D7B24B2E0D25E900D6D448 /* baraka-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9342BCF214C33DC28BC6324C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96BDC91735B1975D5D281A42 /* Pods-baraka-iOS.debug.xcconfig */,
+				E4693BEDBC6D5A0705066003 /* Pods-baraka-iOS.release.xcconfig */,
+				CCA94EBD3060C95A392AE510 /* Pods-baraka-iOS-baraka-iOSUITests.debug.xcconfig */,
+				58F22A8932E2C6E04FE84C9B /* Pods-baraka-iOS-baraka-iOSUITests.release.xcconfig */,
+				72CBE723278A0391D4B373D5 /* Pods-baraka-iOSTests.debug.xcconfig */,
+				D710B8C57DADF1EB6F4D19BA /* Pods-baraka-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7510F4611DF504B6E03507A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527FDC6EB2F735AADAFB0522 /* Pods_baraka_iOS.framework */,
+				30D789656EBF4872933B9023 /* Pods_baraka_iOS_baraka_iOSUITests.framework */,
+				931670199160C86E96452CD7 /* Pods_baraka_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25D7B22A2E0D25E800D6D448 /* baraka-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D7B2542E0D25E900D6D448 /* Build configuration list for PBXNativeTarget "baraka-iOS" */;
+			buildPhases = (
+				28451DCFF2E6A45A5B1BD9AE /* [CP] Check Pods Manifest.lock */,
+				25D7B2272E0D25E800D6D448 /* Sources */,
+				25D7B2282E0D25E800D6D448 /* Frameworks */,
+				25D7B2292E0D25E800D6D448 /* Resources */,
+				58816C027ECBEFB02A8A5CC6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				25D7B22D2E0D25E800D6D448 /* baraka-iOS */,
+			);
+			name = "baraka-iOS";
+			productName = "baraka-iOS";
+			productReference = 25D7B22B2E0D25E800D6D448 /* baraka-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25D7B2402E0D25E900D6D448 /* baraka-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D7B2592E0D25E900D6D448 /* Build configuration list for PBXNativeTarget "baraka-iOSTests" */;
+			buildPhases = (
+				1FCB6724B704E911D43F9A70 /* [CP] Check Pods Manifest.lock */,
+				25D7B23D2E0D25E900D6D448 /* Sources */,
+				25D7B23E2E0D25E900D6D448 /* Frameworks */,
+				25D7B23F2E0D25E900D6D448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D7B2432E0D25E900D6D448 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25D7B2442E0D25E900D6D448 /* baraka-iOSTests */,
+			);
+			name = "baraka-iOSTests";
+			productName = "baraka-iOSTests";
+			productReference = 25D7B2412E0D25E900D6D448 /* baraka-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25D7B24A2E0D25E900D6D448 /* baraka-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D7B25C2E0D25E900D6D448 /* Build configuration list for PBXNativeTarget "baraka-iOSUITests" */;
+			buildPhases = (
+				ACCA10B3BE21655C685E67EE /* [CP] Check Pods Manifest.lock */,
+				25D7B2472E0D25E900D6D448 /* Sources */,
+				25D7B2482E0D25E900D6D448 /* Frameworks */,
+				25D7B2492E0D25E900D6D448 /* Resources */,
+				8ECE9943B550E1D11BFBB625 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D7B24D2E0D25E900D6D448 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25D7B24E2E0D25E900D6D448 /* baraka-iOSUITests */,
+			);
+			name = "baraka-iOSUITests";
+			productName = "baraka-iOSUITests";
+			productReference = 25D7B24B2E0D25E900D6D448 /* baraka-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25D7B2232E0D25E800D6D448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					25D7B22A2E0D25E800D6D448 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					25D7B2402E0D25E900D6D448 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 25D7B22A2E0D25E800D6D448;
+					};
+					25D7B24A2E0D25E900D6D448 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 25D7B22A2E0D25E800D6D448;
+					};
+				};
+			};
+			buildConfigurationList = 25D7B2262E0D25E800D6D448 /* Build configuration list for PBXProject "baraka-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25D7B2222E0D25E800D6D448;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25D7B22C2E0D25E800D6D448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D7B22A2E0D25E800D6D448 /* baraka-iOS */,
+				25D7B2402E0D25E900D6D448 /* baraka-iOSTests */,
+				25D7B24A2E0D25E900D6D448 /* baraka-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25D7B2292E0D25E800D6D448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D7B23F2E0D25E900D6D448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D7B2492E0D25E900D6D448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FCB6724B704E911D43F9A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-baraka-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28451DCFF2E6A45A5B1BD9AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-baraka-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58816C027ECBEFB02A8A5CC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baraka-iOS/Pods-baraka-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baraka-iOS/Pods-baraka-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-baraka-iOS/Pods-baraka-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ECE9943B550E1D11BFBB625 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baraka-iOS-baraka-iOSUITests/Pods-baraka-iOS-baraka-iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baraka-iOS-baraka-iOSUITests/Pods-baraka-iOS-baraka-iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-baraka-iOS-baraka-iOSUITests/Pods-baraka-iOS-baraka-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACCA10B3BE21655C685E67EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-baraka-iOS-baraka-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D7B2272E0D25E800D6D448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D7B23D2E0D25E900D6D448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D7B2472E0D25E900D6D448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25D7B2432E0D25E900D6D448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25D7B22A2E0D25E800D6D448 /* baraka-iOS */;
+			targetProxy = 25D7B2422E0D25E900D6D448 /* PBXContainerItemProxy */;
+		};
+		25D7B24D2E0D25E900D6D448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25D7B22A2E0D25E800D6D448 /* baraka-iOS */;
+			targetProxy = 25D7B24C2E0D25E900D6D448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25D7B2552E0D25E900D6D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BDC91735B1975D5D281A42 /* Pods-baraka-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "baraka-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.baraka-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25D7B2562E0D25E900D6D448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4693BEDBC6D5A0705066003 /* Pods-baraka-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "baraka-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.baraka-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25D7B2572E0D25E900D6D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25D7B2582E0D25E900D6D448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25D7B25A2E0D25E900D6D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72CBE723278A0391D4B373D5 /* Pods-baraka-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.baraka-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baraka-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/baraka-iOS";
+			};
+			name = Debug;
+		};
+		25D7B25B2E0D25E900D6D448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D710B8C57DADF1EB6F4D19BA /* Pods-baraka-iOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.baraka-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baraka-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/baraka-iOS";
+			};
+			name = Release;
+		};
+		25D7B25D2E0D25E900D6D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA94EBD3060C95A392AE510 /* Pods-baraka-iOS-baraka-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.baraka-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "baraka-iOS";
+			};
+			name = Debug;
+		};
+		25D7B25E2E0D25E900D6D448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F22A8932E2C6E04FE84C9B /* Pods-baraka-iOS-baraka-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.baraka-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "baraka-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D7B2262E0D25E800D6D448 /* Build configuration list for PBXProject "baraka-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D7B2572E0D25E900D6D448 /* Debug */,
+				25D7B2582E0D25E900D6D448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D7B2542E0D25E900D6D448 /* Build configuration list for PBXNativeTarget "baraka-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D7B2552E0D25E900D6D448 /* Debug */,
+				25D7B2562E0D25E900D6D448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D7B2592E0D25E900D6D448 /* Build configuration list for PBXNativeTarget "baraka-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D7B25A2E0D25E900D6D448 /* Debug */,
+				25D7B25B2E0D25E900D6D448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D7B25C2E0D25E900D6D448 /* Build configuration list for PBXNativeTarget "baraka-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D7B25D2E0D25E900D6D448 /* Debug */,
+				25D7B25E2E0D25E900D6D448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25D7B2232E0D25E800D6D448 /* Project object */;
+}
