@@ -57,20 +57,17 @@ A sample portfolio viewer built with UIKit, RxSwift and the MVVM pattern. The ap
 
 ### Building from the command line
 ```bash
-xcodebuild -list -project baraka-iOS.xcodeproj
-xcodebuild -scheme "baraka-iOS" \
+xcodebuild -workspace baraka-iOS.xcworkspace \
+  -scheme "baraka-iOS" \
   -sdk iphonesimulator \
-  -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.3' \
+  -destination 'platform=iOS Simulator,name=iPhone 16 Pro Max,OS=18.0' \
+  CODE_SIGNING_ALLOWED=NO \
+  CODE_SIGNING_REQUIRED=NO \
   build
 ```
 
 ### Tests
-```bash
-xcodebuild -scheme "baraka-iOS" \
-  -sdk iphonesimulator \
-  -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.3' \
-  test
-```
+
 <img width="323" alt="Screenshot 2025-06-27 at 9 05 20 PM" src="https://github.com/user-attachments/assets/338c6542-9cdd-4433-800b-be8dea44d737" />
 
 ## Theme
