@@ -32,7 +32,7 @@ struct LocalizationTests {
         let original = Localization.current
 
         Localization.setLanguage(.en)
-        #expect(Localization.pnlWithPercentageText == "Pnl (Pnl %)")
+        #expect(Localization.pnlWithPercentageText == "PnL (PnL %)")
 
         Localization.setLanguage(.ar)
         #expect(Localization.pnlWithPercentageText == "الأرباح والخسائر (% الأرباح والخسائر)")
