@@ -66,7 +66,5 @@ xcodebuild -workspace baraka-iOS.xcworkspace \
 ## Theme
 Fonts and colors are defined in `Theme.swift` and used throughout the app for a consistent look and feel.
 
-## Screenshots
-
 ## License
 baraka-iOS is available under the MIT license.
