@@ -8,7 +8,7 @@
 //
 import UIKit
 
-class PositionTableViewCell: UITableViewCell {
+class PositionCollectionViewCell: UICollectionViewCell {
 
     private let tickerLabel = UILabel()
     private let pnlLabel = UILabel()
@@ -18,8 +18,8 @@ class PositionTableViewCell: UITableViewCell {
     private let marketValueLabel = UILabel()
     private let mainStack = UIStackView()
 
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         setupLayout()
     }
 
@@ -29,7 +29,6 @@ class PositionTableViewCell: UITableViewCell {
     }
 
     private func setupLayout() {
-        selectionStyle = .none
 
         tickerLabel.font = Theme.Fonts.bodyBold
         pnlLabel.font = Theme.Fonts.bodyBold

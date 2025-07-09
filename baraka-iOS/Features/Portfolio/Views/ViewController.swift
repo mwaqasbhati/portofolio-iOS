@@ -11,7 +11,8 @@ import RxCocoa
 
 class ViewController: UIViewController {
 
-    private let tableView = UITableView()
+    private lazy var collectionView = UICollectionView(frame: .zero,
+                                                       collectionViewLayout: createLayout())
     private let headerView = PortfolioHeaderView()
     private let refreshControl = UIRefreshControl()
 
@@ -31,7 +32,8 @@ class ViewController: UIViewController {
     @objc private func languageButtonPressed(_ sender: Any) {
         Localization.toggleLanguage()
         updateLanguage()
-        tableView.reloadData()
+        collectionView.setCollectionViewLayout(createLayout(), animated: false)
+        collectionView.reloadData()
     }
 
     @objc private func refreshData() {
@@ -44,7 +46,7 @@ class ViewController: UIViewController {
         headerView.pnlPercentageTextLabel.text = Localization.pnlWithPercentageText
         headerView.languageButton.setTitle(Localization.buttonTitle, for: .normal)
         view.semanticContentAttribute = Localization.current.semantic
-        tableView.semanticContentAttribute = Localization.current.semantic
+        collectionView.semanticContentAttribute = Localization.current.semantic
         SemanticsUtility.updateSemantics(for: view, semantic: Localization.current.semantic)
     }
 
@@ -73,7 +75,7 @@ class ViewController: UIViewController {
             .disposed(by: disposeBag)
 
         viewModel.positions
-            .bind(to: tableView.rx.items(cellIdentifier: "PositionTableViewCell", cellType: PositionTableViewCell.self)) { row, position, cell in
+            .bind(to: collectionView.rx.items(cellIdentifier: "PositionCollectionViewCell", cellType: PositionCollectionViewCell.self)) { row, position, cell in
                 cell.configure(with: position)
             }
             .disposed(by: disposeBag)
@@ -99,25 +101,41 @@ class ViewController: UIViewController {
         headerView.languageButton.addTarget(self, action: #selector(languageButtonPressed), for: .touchUpInside)
         view.addSubview(headerView)
 
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 100
-        tableView.register(PositionTableViewCell.self, forCellReuseIdentifier: "PositionTableViewCell")
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
+        collectionView.backgroundColor = .clear
+        collectionView.register(PositionCollectionViewCell.self, forCellWithReuseIdentifier: "PositionCollectionViewCell")
 
         refreshControl.addTarget(self, action: #selector(refreshData), for: .valueChanged)
-        tableView.refreshControl = refreshControl
-        view.addSubview(tableView)
+        collectionView.refreshControl = refreshControl
+        view.addSubview(collectionView)
 
         NSLayoutConstraint.activate([
             headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
 
-            tableView.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: 8),
-            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+            collectionView.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: 8),
+            collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
+    }
+
+    private func createLayout() -> UICollectionViewLayout {
+        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
+                                             heightDimension: .estimated(100))
+        let item = NSCollectionLayoutItem(layoutSize: itemSize)
+
+        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
+                                              heightDimension: .estimated(100))
+        let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitems: [item])
+
+        let section = NSCollectionLayoutSection(group: group)
+        section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
+        section.interGroupSpacing = 8
+
+        let layout = UICollectionViewCompositionalLayout(section: section)
+        return layout
     }
 }
 
